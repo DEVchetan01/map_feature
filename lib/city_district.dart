@@ -3,7 +3,7 @@ import 'dart:convert';
 
 Future<Map<String, String>> getCityAndDistrict(
     double latitude, double longitude) async {
-  String YOUR_API_KEY = 'AIzaSyBmcKqKtrP4QBuTc7-1OOEOT_Wul-0RSeA';
+  String YOUR_API_KEY = 'API';
   final url =
       'https://maps.googleapis.com/maps/api/geocode/json?latlng=$latitude,$longitude&key=$YOUR_API_KEY';
 
